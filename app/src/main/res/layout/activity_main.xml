@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="#413D3D"
+    tools:context="com.casey.test.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.75"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnWarranty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSelectFragment"
+
+            android:text="Warranty"/>
+
+        <Button
+            android:id="@+id/btnPolicy1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSelectFragment"
+            android:text="Policy1" />
+
+        <Button
+            android:id="@+id/btnPolicy2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSelectFragment"
+
+            android:text="Policy2"/>
+
+        <Button
+            android:id="@+id/btnCustomerInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSelectFragment"
+            android:text="Customer Info" />
+        <Button
+            android:id="@+id/btnPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSelectFragment"
+
+            android:text="Payment"/>
+
+        <Button
+            android:id="@+id/btnReview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onSelectFragment"
+            android:text="Review" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentView"
+        android:layout_weight="3.25"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#DDDDDD"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+
+</LinearLayout>

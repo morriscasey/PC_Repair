@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="10"
+    android:rowCount="10"
+    android:columnOrderPreserved="true"
+    android:alignmentMode="alignMargins"
+    android:rowOrderPreserved="true"
+    android:useDefaultMargins="true"
+    android:orientation="horizontal" >
+
+    <Button
+        android:layout_column="0"
+        android:layout_row="2"
+        android:id="@+id/confirm"
+        android:layout_gravity="fill"
+        android:text="Confirm"
+        />
+
+    <Button
+        android:layout_column="1"
+        android:layout_row="2"
+        android:layout_gravity="fill"
+        android:id="@+id/cancel"
+        android:text="Cancel"
+        />
+
+    <TextView
+        android:layout_column="0"
+        android:layout_row="0"
+        android:id="@+id/discountPrompt"
+        android:text="Please enter the desired discount amount:"
+        />
+
+    <EditText
+        android:layout_column="1"
+        android:layout_row="0"
+        android:id="@+id/discount"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:hint="Enter the discount amount"
+        />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:inputType="number"
+        android:maxLength="4"
+        android:hint="Password"
+        />
+
+    <TextView
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Please enter the password:"
+        />
+
+</GridLayout>

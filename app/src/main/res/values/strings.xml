@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PC Repair</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="submit">Save</string>
+    <string name="clear">Clear</string>
+    <string name="signatureTitle">\t<b>Signature*</b>\n\tSigning this is an agreement to the Green River\n\tPC Repair Shop Polies
+</string>
+
+</resources>

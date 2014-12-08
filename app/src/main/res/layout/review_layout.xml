@@ -1,0 +1,168 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="8"
+    android:rowCount="18"
+    android:columnOrderPreserved="true"
+    android:layout_margin="2sp"
+    android:rowOrderPreserved="true"
+    android:useDefaultMargins="false"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:alignmentMode="alignMargins" >
+
+    <TextView
+        android:layout_row="0"
+        android:layout_column="2"
+        android:textAllCaps="true"
+        android:textSize="24sp"
+        android:text="Please review the following information"
+        />
+
+    <TextView
+        android:layout_row="1"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Client Name: "
+        />
+
+    <TextView
+        android:id="@+id/nameDisplay"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:text="Placeholder"
+        />
+
+    <TextView
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Receipt Number: "
+        />
+
+    <TextView
+        android:id="@+id/receiptDisplay"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:text="Placeholder"
+        />
+
+    <TextView
+        android:layout_row="3"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Cost: "
+        />
+
+    <TextView
+        android:id="@+id/costDisplay"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="Placeholder"
+        />
+
+    <TextView
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Payment Method: "
+        />
+
+    <TextView
+        android:id="@+id/paymentDisplay"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:text="Placeholder"
+        />
+
+    <TextView
+        android:layout_row="5"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Phone Number: "
+        />
+
+    <TextView
+        android:id="@+id/phoneDisplay"
+        android:layout_row="5"
+        android:layout_column="2"
+        android:text="Placeholder"
+        />
+
+    <TextView
+        android:layout_row="6"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Email: "
+        />
+
+    <TextView
+        android:id="@+id/emailDisplay"
+        android:layout_row="6"
+        android:layout_column="2"
+        android:text="Placeholder"
+        />
+
+    <TextView
+        android:layout_row="7"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Student ID: "
+        />
+
+    <TextView
+        android:id="@+id/sidDisplay"
+        android:layout_row="7"
+        android:layout_column="2"
+        android:text="Placeholder"
+        />
+
+    <TextView
+        android:layout_row="8"
+        android:layout_rowSpan="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Computer Issue(s): "
+        />
+
+    <TextView
+        android:id="@+id/issueDisplay"
+        android:layout_row="8"
+        android:layout_rowSpan="2"
+        android:layout_column="2"
+        android:maxWidth="550sp"
+        android:text="Placeholder
+Test Test"
+        />
+
+    <TextView
+        android:layout_row="10"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:text="Signature: "
+        />
+
+    <ImageView
+        android:id="@+id/signatureImage"
+        android:scaleType="fitCenter"
+        android:layout_row="11"
+        android:layout_columnSpan="3"
+        android:layout_column="0"
+        android:layout_rowSpan="3"
+        />
+
+    <Button
+
+        android:layout_row="17"
+        android:layout_column="0"
+        android:layout_columnSpan="7"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:id="@+id/menuButton"
+        android:background="#00CF00"
+        android:text="Submit and Print"
+        android:textColor="#FFFFFF"
+        />
+
+</GridLayout>

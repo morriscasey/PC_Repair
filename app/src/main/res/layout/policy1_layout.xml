@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2sp"
+    android:orientation="vertical"
+    tools:context=".MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal" >
+
+        <WebView
+            android:id="@+id/policy1"
+            android:layout_weight="3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/contentView"
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+
+        <CheckBox
+            android:id="@+id/checkedPolicy1"
+            android:layout_weight="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="I agree to these policies*" />
+
+
+
+        <Button
+            android:id="@+id/nextButton"
+            android:layout_weight="0.5"
+            android:layout_height="60sp"
+            android:layout_width="fill_parent"
+
+            android:layout_gravity="center"
+            android:background="#00CF00"
+            android:text="NEXT"
+            android:textColor="#FFFFFF"/>
+
+    </LinearLayout>
+</LinearLayout>

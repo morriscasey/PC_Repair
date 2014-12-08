@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PCRepair.iml" filepath="$PROJECT_DIR$/PCRepair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pc-repair.iml" filepath="$PROJECT_DIR$/pc-repair.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pc_repair.iml" filepath="$PROJECT_DIR$/pc_repair.iml" />
+    </modules>
+  </component>
+</project>
+
